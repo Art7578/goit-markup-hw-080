@@ -1,0 +1,36 @@
+.section-two{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.feature{
+    gap: 30px;
+}
+.feature_item{
+    width: 270px;
+}
+.feature_icon{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.feature_icon-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature_heading{
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.14;
+    list-style: none;
+}
+.feature_text{
+    margin: 0;
+    line-height: 1.71;
+}
