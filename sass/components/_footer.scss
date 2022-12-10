@@ -1,24 +1,66 @@
 .footer{
-    display: flex;
+    // display: flex;
+    display: block;
     align-items: baseline;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 15px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
     background-color: #2F303A;
     box-sizing: border-box;
+
+    @media screen and (min-width: 1200px){
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        width: 1600px;
+    }
 }
 .maim-footer-container{
-    display: flex;
-    align-items: baseline;
-    width: 1200px;
+    display: block;
+    // align-items: baseline;
+    
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    // padding-left: 15px;
+    // padding-right: 15px;  
+    
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: baseline;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }   
+.desktop-container{
+
+    @media screen and (min-width: 768px){
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 165px;
+    }
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 70px;
+    }
+}
+
 .container-footer{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    // align-items: baseline;
+    align-items: center;
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
 }    
 .footer-list{
     display: block;
@@ -29,20 +71,30 @@
 .studio-link-footer{
     color: var(--white-color);
     font-family: Raleway;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+
+    @media screen and (min-width: 1200px){
+        font-size: 26px;
+        line-height: 1.19;
+    }
 }
+// font-size: 26px;
+    // line-height: 1.19;
 .studio-link:active{
     color: var(--secondary-color);
 }
 .address{
     margin-top: 20px;
-    width: 231px;
+    width: 232px;
 }
 .town{
     color: var(--white-color);
+    text-decoration: none;
+    line-height: 1.14;
+    text-align: center;
     font-style: normal;
-    line-height: 1.71;
 
     transition-property: color;
     transition-duration: 250ms;
@@ -58,6 +110,8 @@
     color: #FFFFFFa5;
     font-style: normal;
     line-height: 1.71;
+    text-align: center;
+    justify-content: center;
 
     transition-property: color;
     transition-duration: 250ms;
@@ -66,6 +120,10 @@
     &:hover,
     &:focus{
         color: var(--secondary-color);
+    }
+
+    @media screen and (min-width: 1200px){
+        text-align: left;
     }
 }
 .footer-list li{
@@ -81,20 +139,25 @@
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-align: center;
     text-transform: uppercase;
     color: var(--white-color);
+
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
 }
 .footer-icons{
     display: block;
     align-items: baseline;
-    margin-left: 70px;
-
+    margin-top: 60px;
 }
 .social-two{
     display: flex;
     align-items: baseline;
     margin-top: 16px;
     gap: 10px;
+    justify-content: center;
 }
 .social-link-two{
     display: flex;
@@ -124,11 +187,19 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
     color: var(--white-color);
+
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
 }
 .booking-field{
     display: flex;
-    width: 358px;
+    // width: 358px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
     color: var(--white-color);
     outline: unset;
     background-color: transparent;
@@ -136,22 +207,41 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding: 15px 16px;
+
+    @media screen and (min-width: 1200px){
+        width: 358px;
+    }
 }
 .booking-group-field{
-    display: flex;
-    align-items: baseline;
+    // display: flex;
+    // align-items: baseline;
+    display: block;
+
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: baseline;
+        margin-left: 9px;
+    }
 }
 
 .booking-group{
-    display: block;
+    // display: block;
     margin-left: auto;
+    margin-top: 60px;
+
+    @media screen and (min-width: 1200px){
+        display: block;
+        margin-left: auto;
+    }
 }
 
 .btn-join{
     display: flex;
+    margin-top: 20px;
     align-items: center;
     gap: 10px;
-    margin-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px 32px;
     color: var(--white-color);
     background-color: var(--secondary-color);
@@ -169,6 +259,10 @@
 
     &:hover{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    @media screen and (min-width: 1200px){
+        margin-left: 12px;
     }
 }
 .button-icon{

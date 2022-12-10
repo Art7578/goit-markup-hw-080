@@ -3,9 +3,25 @@
     padding-bottom: 94px;
 }
 .button-secondary {
-    margin-bottom: 50px;
-    justify-content: center;
+    // margin-bottom: 50px;
+    // justify-content: center;
+    // gap: 8px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
     gap: 8px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+        gap: 8px;
+        justify-content: center;
+      }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        gap: 8px;
+        justify-content: center;
+      }
 }
 .button_list--main{
     padding: 6px 25px;
@@ -111,13 +127,24 @@
     font-size: 16px;
     line-height: 1.87;
 }
+
 .card{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 .card_items{
-    width: 370px;
+    // width: 370px;
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+      }
+
+      @media screen and (min-width: 1200px) {
+        width: 370px;
+      }
+    
 
     &:hover .overlay{
         transform: translateY(0);
@@ -129,4 +156,25 @@
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+      }
+
+      @media screen and (min-width: 1200px) {
+        width: 370px;
+      }
+}
+.portfolio-image{
+    width: 450;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 370px;
+        height: 294px;
+      }
+    
 }
