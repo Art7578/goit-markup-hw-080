@@ -98,6 +98,7 @@ p {
 
 .menu-icon {
   fill: #212121;
+  margin-right: 23px;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -1290,6 +1291,7 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .join-us-two {
+    margin-bottom: 0;
     text-align: left;
   }
 }
