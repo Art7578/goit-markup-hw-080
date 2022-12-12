@@ -12,13 +12,11 @@
         padding-top: 60px;
         padding-bottom: 60px;
         display: flex;
-        width: 1600px;
     }
 }
 .maim-footer-container{
     display: block;
     // align-items: baseline;
-    
     margin-left: auto;
     margin-right: auto;
     // padding-left: 15px;
@@ -27,7 +25,7 @@
     @media screen and (min-width: 1200px){
         display: flex;
         align-items: baseline;
-        width: 1200px;
+        justify-content: center;
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
@@ -46,6 +44,7 @@
         display: flex;
         align-items: baseline;
         justify-content: center;
+        margin-right: 93px;
         gap: 70px;
     }
 }
@@ -226,12 +225,10 @@
 
 .booking-group{
     // display: block;
-    margin-left: auto;
     margin-top: 60px;
 
     @media screen and (min-width: 1200px){
         display: block;
-        margin-left: auto;
     }
 }
 

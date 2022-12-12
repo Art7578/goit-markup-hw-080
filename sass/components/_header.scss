@@ -19,6 +19,14 @@
 
 .menu-icon{
     fill:#212121;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill: var(--secondary-color)
+    }
 }
 .list-zero{
     gap: 50px;
@@ -46,8 +54,7 @@
 
   @media screen and (min-width: 768px) {
     display: block;
-    align-items: center;
-    padding-right: 20px;
+    
   }
 
   @media screen and (min-width: 1200px) {
@@ -144,6 +151,7 @@
 .nav-second{
     display: flex;
     align-items: center;
+    
     gap: 10px;
     color: #757575;
     font-weight: 500;

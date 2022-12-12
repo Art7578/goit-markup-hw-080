@@ -5,10 +5,18 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #2F303A;
+    // Mobile screen
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
-    url("../images/Img\ hw-4.jpg");
+    url("../img3/img_section1/Header imgsection1_sm@1x.jpg");
+    // retina mobile screen
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url("../img3/img_section1/Header imgsection1_sm@2x.jpg");
+    }
           
     
 
@@ -21,7 +29,14 @@
         background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url("../images/Img\ hw-4.jpg");  
+        url("../img3/img_section1/Header imgsection1_md@1x.jpg");
+        // retina mobile screen
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../img3/img_section1/Header imgsection1_md@2x.jpg");
+        }
     }
 
     @media screen and (min-width: 1200px) {
@@ -33,9 +48,15 @@
         margin-right: auto;
         background-color: #2F303A;
         background-image: linear-gradient(
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url("../images/Img\ hw-4.jpg"); 
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../img3/img_section1/Imgsection1_lr@1x.jpg");
+        // retina mobile screen
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../img3/img_section1/Imgsection1_lr@2x.jpg");
     }
 }
 .section-one_heading{
@@ -73,6 +94,12 @@
         line-height: 1.36;
     }
 }
+.menu-icon{
+    fill: #212121;
+    &:hover{
+        fill: var(--secondary-color);
+    }
+}
 .button{
     display: block;
     margin-left: auto;
@@ -100,3 +127,4 @@
     }
 }
 
+}

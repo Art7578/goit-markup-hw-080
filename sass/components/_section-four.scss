@@ -2,6 +2,7 @@
     background: #F5F4FA;
     margin-left: auto;
     margin-right: auto;
+    padding: 60px 15px;
 
     @media screen and (min-width: 768px) {
         background: #F5F4FA;
@@ -14,20 +15,6 @@
     }
 }
 
-.team-image{
-    width: 450px;
-    height: 460px;
-
-    @media screen and (min-width: 768px) {
-        width: 354px;
-        height: 374px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 270px;
-        height: 260px;
-    }
-}
 .team-list{
     // gap: 30px;
 
