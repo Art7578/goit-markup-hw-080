@@ -98,7 +98,7 @@ p {
 
 .menu-icon {
   fill: #212121;
-  margin-right: 23px;
+  margin-right: auto;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
