@@ -109,6 +109,20 @@ p {
   fill: var(--secondary-color);
 }
 
+.menu-icon_main {
+  fill: #212121;
+  margin-right: 23px;
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-icon_main:hover {
+  fill: var(--secondary-color);
+}
+
 .list-zero {
   gap: 50px;
   margin-left: 93px;

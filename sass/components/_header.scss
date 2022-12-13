@@ -27,6 +27,17 @@
         fill: var(--secondary-color)
     }
 }
+.menu-icon_main{
+    fill:#212121;
+    margin-right: 23px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill: var(--secondary-color)
+    }
+}
 .list-zero{
     gap: 50px;
     margin-left: 93px;
