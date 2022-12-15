@@ -1,15 +1,15 @@
 .footer{
-    @media screen and (min-width: 480px) {
         
         // display: flex;
         display: block;
         align-items: baseline;
-        padding: 60px 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         // padding-top: 60px;
         // padding-bottom: 60px;
         background-color: #2F303A;
         box-sizing: border-box;
-      }
+      
 
     @media screen and (min-width: 1200px){
         padding-top: 60px;
@@ -18,7 +18,7 @@
     }
 }
 .maim-footer-container{
-    @media screen and (min-width: 480px){
+    
 
         display: block;
         // align-items: baseline;
@@ -26,7 +26,7 @@
         margin-right: auto;
         // padding-left: 15px;
         // padding-right: 15px;  
-    }
+    
 
     
     @media screen and (min-width: 1200px){
@@ -57,13 +57,13 @@
 }
 
 .container-footer{
-    @media screen and (min-width: 480px){
+    
 
         display: flex;
         flex-direction: column;
         // align-items: baseline;
         align-items: center;
-    }
+    
 
     @media screen and (min-width: 1200px){
         display: flex;
@@ -78,13 +78,11 @@
     color: var(--secondary-color);
 }
 .studio-link-footer{
-    @media screen and (min-width: 480px){
         color: var(--white-color);
         font-family: Raleway;
         font-size: 24px;
         line-height: 1.16;
         text-align: center;
-    }
 
     @media screen and (min-width: 1200px){
         font-size: 26px;
@@ -115,10 +113,14 @@
     &:focus{
         color: var(--secondary-color);
     }
+
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
+    
 }
 
 .nav-third{
-    @media screen and (min-width: 480px){
 
         color: #FFFFFFa5;
         font-style: normal;
@@ -134,7 +136,6 @@
         &:focus{
             color: var(--secondary-color);
         }
-    }
 
     @media screen and (min-width: 1200px){
         text-align: left;
@@ -149,7 +150,6 @@
     }
 }
 .join-us{
-    @media screen and (min-width: 468px){
         font-family: 'Roboto';
         font-weight: 700;
         line-height: 1.14;
@@ -157,7 +157,7 @@
         text-align: center;
         text-transform: uppercase;
         color: var(--white-color);
-    }
+    
     
 
     @media screen and (min-width: 1200px){
@@ -168,6 +168,10 @@
     display: block;
     align-items: baseline;
     margin-top: 60px;
+
+    @media screen and (min-width: 1200px){
+        margin-top: 0;
+    }
 }
 .social-two{
     display: flex;
@@ -198,7 +202,6 @@
     fill: var(--white-color);
 }
 .join-us-two{
-    @media screen and (min-width: 480px){
         margin-bottom: 20px;
         font-family: 'Roboto';
         font-weight: 700;
@@ -207,7 +210,6 @@
         text-transform: uppercase;
         text-align: center;
         color: var(--white-color);
-    }
 
     @media screen and (min-width: 1200px){
         margin-bottom: 0;
@@ -215,12 +217,11 @@
     }
 }
 .booking-field{
-    @media screen and (min-width: 480px){
         display: flex;
         // width: 358px;
         margin-left: auto;
         margin-right: auto;
-        width: 450px;
+        width: 100%;
         color: var(--white-color);
         outline: unset;
         background-color: transparent;
@@ -228,19 +229,20 @@
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
         padding: 15px 16px;
-    }
+
+        @media screen and (min-width: 480px){
+            width: 450px;
+        }
 
     @media screen and (min-width: 1200px){
         width: 358px;
     }
 }
 .booking-group-field{
-    @media screen and (min-width: 480px){
 
         // display: flex;
         // align-items: baseline;
         display: block;
-    }
 
     @media screen and (min-width: 1200px){
         display: flex;
@@ -250,14 +252,13 @@
 }
 
 .booking-group{
-    @media screen and (min-width: 480px){
 
         // display: block;
         margin-top: 60px;
-    }
 
     @media screen and (min-width: 1200px){
         display: block;
+        margin-top: 0;
     }
 }
 
